@@ -1,7 +1,11 @@
 package org.example;
 
+import org.example.storage.EmployeeBook;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        EmployeeBook employeeBook = new EmployeeBook();
+
+        System.out.println(employeeBook.createEmployeeInTheBook());
     }
 }
